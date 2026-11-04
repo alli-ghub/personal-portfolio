@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alliah Kelly H. Baldo's personal portfolio as a second-year BSIT student.">
+  <title>Alliah Kelly H. Baldo | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="home">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="AKB home">AKB.</a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu"
+              aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container section-card" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1 id="hero-title">Alliah Kelly H. Baldo</h1>
+        <p class="tagline">BSIT Student | Learning to build things on the web</p>
+        <p class="intro">Hi there! I'm Alliah Kelly, a second-year IT student based in Cainta, Rizal. I'm just starting my journey in web development — figuring things out, learning as I go, and building projects that help me grow. Welcome to my portfolio!</p>
+        <a class="primary-button" href="#about">About Me <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-photo-wrap">
+        <img class="profile-photo" src="profile.png" alt="Portrait of Alliah Kelly H. Baldo">
+      </div>
+    </section>
+
+    <section class="content-section container section-card" id="about">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h2>About Me</h2>
+      <p class="section-lead">I'm a 2nd-year BSIT student who genuinely enjoys understanding how websites and applications work. It wasn't always easy at first, but every small win keeps me going. I like creating things that look clean and work well — even if they're simple.</p>
+      <div class="info-grid">
+        <article class="info-card">
+          <h3>Education</h3>
+          <p>Bachelor of Science in Information Technology — Institute of Creative Computer Technology, 2nd Year | 2024 – Present</p>
+          <p>Senior High School — TVL-ICT — Antipolo City Senior High School | Graduated 2024</p>
+        </article>
+        <article class="info-card">
+          <h3>What I'm Working Toward</h3>
+          <p>Right now, my main goal is to build a solid foundation in web development. I want to be good enough to land an internship someday, contribute to real projects, and maybe even help build things that people actually find useful. I know I still have a lot to learn — and that's exactly why I'm excited.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section container section-card" id="skills">
+      <p class="eyebrow">WHAT I'VE LEARNED</p>
+      <h2>Skills</h2>
+      <h3 class="subheading">Things I've Learned So Far:</h3>
+      <ul class="simple-list">
+        <li><strong>HTML5</strong> — I can structure web pages properly</li>
+        <li><strong>CSS3</strong> — Styling, layouts, and making things responsive</li>
+        <li><strong>JavaScript Basics</strong> — Simple interactivity like toggles and menus</li>
+        <li><strong>Responsive Design</strong> — Making pages look good on phones and computers</li>
+        <li><strong>Basic Troubleshooting</strong> — Reading errors and fixing them one step at a time</li>
+      </ul>
+      <h3 class="subheading">Other Things I Bring to the Table:</h3>
+      <ul class="simple-list">
+        <li>Organizing my work and meeting deadlines</li>
+        <li>Asking questions when I don't understand something</li>
+        <li>Working well with classmates on group tasks</li>
+        <li>Being patient when figuring things out</li>
+      </ul>
+    </section>
+
+    <section class="content-section container section-card" id="projects">
+      <p class="eyebrow">SOME THINGS I'VE MADE</p>
+      <h2>My Projects</h2>
+      <div class="project-list">
+        <article class="project-card">
+          <div class="project-heading">
+            <span class="project-number">01</span>
+            <h3>My Personal Portfolio Website</h3>
+          </div>
+          <h4>What It Is:</h4>
+          <p>This very website! I built it from scratch to practice what I've learned about HTML, CSS, and basic JavaScript. It's where I introduce myself and show what I can do so far.</p>
+          <h4>Technologies Used:</h4>
+          <p>HTML5, CSS3, JavaScript (mobile navigation menu)</p>
+          <h4>What I Learned:</h4>
+          <p>Honestly? I learned that structure matters a lot — planning before coding saves so much time. I also learned how frustrating it is when things don't align correctly, but how satisfying it is when they finally do. Making it work on mobile took extra effort but it was worth it.</p>
+          <div class="project-links">
+            <a href="https://alli-ghub.github.io/personal-portfolio/" target="_blank" rel="noopener noreferrer">🔗 Live Demo</a>
+            <a href="https://github.com/alli-ghub/personal-portfolio" target="_blank" rel="noopener noreferrer">💻 GitHub Repo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-heading">
+            <span class="project-number">02</span>
+            <h3>Live Message Preview Tool</h3>
+          </div>
+          <h4>What It Is:</h4>
+          <p>A simple web tool that lets you type a message and see a live preview as you type. It also includes a character counter and a light/dark theme toggle switch. Built to practice how JavaScript interacts with user input.</p>
+          <h4>Technologies Used:</h4>
+          <p>HTML, CSS, JavaScript</p>
+          <h4>What I Learned:</h4>
+          <p>I learned how to capture user input in real time using JavaScript events, update content dynamically on the page, and toggle between different visual themes. It showed me the basics of how websites respond when people interact with them.</p>
+          <img class="project-screenshot" src="project2.png" alt="Live Message Preview Tool screenshot">
+          <div class="project-links">
+            <a href="https://github.com/alli-ghub/personal-portfolio/blob/main/live-preview.html" target="_blank" rel="noopener noreferrer">💻 GitHub Repo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-heading">
+            <span class="project-number">03</span>
+            <h3>Student Registration Form (PHP-Powered)</h3>
+          </div>
+          <h4>What It Is:</h4>
+          <p>A student registration web form that collects student number, full name, email, and section. It checks if required fields are filled, validates the student number format and email address, and shows error or success messages after submission.</p>
+          <h4>Technologies Used:</h4>
+          <p>HTML, CSS, PHP (server-side validation)</p>
+          <h4>What I Learned:</h4>
+          <p>I learned how to build a form with server-side checks, set custom format rules for student IDs, sanitize displayed text for safety, and show feedback messages to the user. I also found out that PHP files need special hosting because GitHub Pages does not run backend code.</p>
+          <img class="project-screenshot" src="project3.png" alt="Student Registration Form screenshot">
+          <div class="project-links">
+            <a href="https://github.com/alli-ghub/personal-portfolio/blob/main/registration.php" target="_blank" rel="noopener noreferrer">💻 GitHub Repo</a>
+          </div>
+          <p class="project-note">ℹ️ Full-function live demo not available on GitHub Pages due to PHP requirement.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section container section-card" id="education">
+      <p class="eyebrow">MY BACKGROUND</p>
+      <h2>Education &amp; Achievements</h2>
+      <h3 class="subheading">Education History:</h3>
+      <ul class="simple-list">
+        <li>📍 College: Institute of Creative Computer Technology — BS Information Technology | 2024 – Present</li>
+        <li>📍 High School: Antipolo City Senior High School | Graduated 2024</li>
+      </ul>
+      <div class="achievement-card">
+        <h3>📌 Achievements &amp; Certifications:</h3>
+        <p>Currently building skills and working toward future accomplishments!</p>
+      </div>
+    </section>
+
+    <section class="content-section container section-card" id="contact">
+      <p class="eyebrow">SAY HELLO</p>
+      <h2>Get in Touch</h2>
+      <p class="section-lead">If you'd like to reach out, feel free to contact me here:</p>
+      <div class="contact-links">
+        <a href="mailto:baldoalliahkelly@gmail.com">📧 Email: baldoalliahkelly@gmail.com</a>
+        <a href="https://github.com/alli-ghub" target="_blank" rel="noopener noreferrer">💻 GitHub: https://github.com/alli-ghub</a>
+      </div>
+      <p class="privacy-note">⚠️ For privacy reasons, I don't share my full address or personal number online. Email is the best way to reach me!</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Alliah Kelly H. Baldo. Built with lots of patience, HTML, CSS, and a little JavaScript. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
